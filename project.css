@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  background-color: #0d0d0d;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #d5d5d5;
+  text-decoration: underline;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.icon-items {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-left: white;
+  border-left-width: 1px;
+  border-left-style: solid;
+  padding-left: 1.5rem;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  height: 100vh;
+  gap: 1rem;
+  background-image: url(hero-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-right: 2rem;
+}
+
+.heading {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+button {
+  border: none;
+  background-color: #f36000;
+  color: white;
+  padding: 1rem 1.5rem;
+  font-weight: 500;
+  width: fit-content;
+}
+
+#why-choose-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0;
+  gap: 3rem;
+  background-color: #141414;
+}
+
+.page-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.page-heading>.subtitle {
+  color: #f36000;
+  font-weight: 600;
+}
+
+.page-heading>.title {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.why-choose-us-cards {
+  display: flex;
+  gap: 2rem;
+}
+
+.why-choose-us-card {
+  height: fit-content;
+  width: 250px;
+  /* border: 2px solid red; */
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.why-choose-us-card>.card-icon {
+  padding: 1rem;
+  border-radius: 100%;
+  background-color: #3d3d3d;
+  height: 5rem;
+  width: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.card-icon:hover {
+  background-color: #f36000;
+}
+
+.bike-icon {
+  height: 3rem;
+  width: 3rem;
+  color: #f36000;
+}
+
+.apple-icon:hover {
+  color: white;
+}
+
+.why-choose-us-card>.card-title {
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+
+.why-choose-us-card>.card-description {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #939393;
+}
+
+#classes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0;
+  gap: 3rem;
+}
+
+.class-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.class-top {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.class-bottom {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.class-card-data {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 10px;
+}
+
+.class-card-data>.title {
+  font-size: 0.8rem;
+  color: #f36000;
+}
+
+.class-card-data>.description {
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+#contact {
+  background-image: url(gallery-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 32px 0;
+}
+
+.contact-title {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.contact-description {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color: #e3e3e3;
+}
+
+.btn {
+  margin-top: 8px;
+  border: 2px solid #f36000;
+  background-color: transparent;
+}
+
+.btn:hover {
+  background-color: #f36000;
+}
